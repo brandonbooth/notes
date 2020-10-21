@@ -4,9 +4,6 @@ by [Brandon Booth](https://brandon-booth.com)
 ## Table of Contents
 - [git Command Line](#git-command-line)
 
-
-## git Notes ##
-
 **Helpful links:**
 - https://guides.github.com/features/mastering-markdown/#syntax
 - https://education.github.com/git-cheat-sheet-education.pdf
@@ -15,8 +12,7 @@ by [Brandon Booth](https://brandon-booth.com)
 
 > Note: TBD...
 
-
-## git Command Line
+## Git Command Line
 
 Check version of Git installed on mac
 ```sh
@@ -67,7 +63,7 @@ Commit file to git repository with message
 git commit -m "Initial Commit - add test file"
 ```
 
-Check git lot
+Check git log
 ```sh
 git log
 ```
@@ -120,7 +116,7 @@ git checkout main
 ```
 
 
-Checkout merge
+Merge a branch
 ```sh
 git merge otherbranch
 ```
