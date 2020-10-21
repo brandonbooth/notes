@@ -35,24 +35,20 @@ Navigate to location of folder or project
 cd projects
 ```
 
-
 Initialize the git repository within the chosen folder location
 ```sh
 git init
 ```
-
 
 Use terminal to view the hidden git repository that was created (this will make files visible in finder)
 ```sh
 defaults write com.apple.find AppleShowAllFiles YES
 ```
 
-
 Check status of git folder
 ```sh
 git status
 ```
-
 
 Add a file to git (after adding file it is a good practice to check the status to validate)
 ```sh
@@ -69,7 +65,6 @@ Check git log
 git log
 ```
 
-
 After a change is made add the file and then commit the changes (note: multiple files can be added at the same time - Use “*” as a wildcard).
 ```sh
 git add *.txt
@@ -79,57 +74,46 @@ Add location of repository
 ```sh
 git remote add origin https://github.com/brandonbooth/projects.git
 ```
-
 ```sh
 git remote add origin https://github.com/brandonbooth/python.git
 ```
 
-
 Push to repository
 ```sh
 git push -u origin main
+```
+
+Pull from GitHub
+```sh
+git pull https://github.com/brandonbooth/notes.git
 ```
 ```sh
 git pull origin main --allow-unrelated-histories
 ```
 
 **Misc Commands:**
-
 List git commands
 ```sh
 git --help
 ```
-
 ```sh
 git status --help
 ```
-
 
 List branch
 ```sh
 git branch
 ```
 
-
 Checkout a branch
 ```sh
 git checkout main
 ```
 
-
 Merge a branch
 ```sh
 git merge otherbranch
 ```
-
-
-Pull from GitHub
-```sh
-git pull https://github.com/brandonbooth/notes.git
-```
-
-
-
 
 ## Python
 
