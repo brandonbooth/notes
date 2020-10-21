@@ -2,10 +2,12 @@
 by [Brandon Booth](https://brandon-booth.com)
 
 ## Table of Contents
-- [git Command Line](#git-command-line)
+- [Git Command Line](#git-command-line)
+- [Python](#Python)
 
 **Helpful links:**
 - https://guides.github.com/features/mastering-markdown/#syntax
+- https://github.com/RichardLitt/standard-readme/edit/master/README.md
 - https://education.github.com/git-cheat-sheet-education.pdf
 - https://guides.github.com/introduction/flow/
 - https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
@@ -126,5 +128,16 @@ Pull from GitHub
 ```sh
 git pull https://github.com/brandonbooth/notes.git
 ```
+
+
+
+
+## Python
+
+TBD...
+```sh
+TBD
+```
+
 
 Created by Brandon Booth (brandon.booth@yahoo.com) - Fall 2020
