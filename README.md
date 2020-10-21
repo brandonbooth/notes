@@ -1,4 +1,4 @@
-# notes
+# notes - 1
 ## Table of Contents
 - [git Command Line](#git-command-line)
 
@@ -124,7 +124,7 @@ git merge otherbranch
 
 Pull from GitHub merge
 ```sh
-git pull???
+git pull https://github.com/brandonbooth/notes.git
 ```
 
 Created by Brandon Booth (brandon.booth@yahoo.com) - Fall 2020
