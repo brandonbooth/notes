@@ -92,6 +92,10 @@ Push to repository
 git push -u origin master
 ```
 
+```sh
+git push -u origin main
+```
+
 **Misc Commands:**
 
 List git commands
