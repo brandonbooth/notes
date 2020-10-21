@@ -22,7 +22,6 @@ Check version of Git installed on mac
 git -–version
 ```
 
-
 Add GitHub username and email to git on mac
 ```sh
 git config --global user.email "brandon.booth@yahoo.com"
@@ -30,7 +29,6 @@ git config --global user.email "brandon.booth@yahoo.com"
 ```sh
 git config --global user.name "brandonbooth"
 ```
-
 
 Navigate to location of folder or project
 ```sh
@@ -139,4 +137,3 @@ TBD...
 ```sh
 TBD
 ```
-
