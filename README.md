@@ -1,5 +1,6 @@
 # Coding Notes
-by [Brandon Booth](https://brandon-booth.com)
+by [Brandon Booth](https://brandon-booth.com) - Fall 2020
+
 
 ## Table of Contents
 - [Git Command Line](#git-command-line)
@@ -139,5 +140,3 @@ TBD...
 TBD
 ```
 
-
-Created by Brandon Booth (brandon.booth@yahoo.com) - Fall 2020
