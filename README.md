@@ -1,4 +1,4 @@
-# notes - 1
+# notes
 ## Table of Contents
 - [git Command Line](#git-command-line)
 
