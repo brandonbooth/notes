@@ -1,7 +1,4 @@
 # notes
-## python - test
-
-
 ## Table of Contents
 - [git Command Line](#git-command-line)
 
