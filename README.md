@@ -95,6 +95,9 @@ git push -u origin master
 ```sh
 git push -u origin main
 ```
+```sh
+git pull origin main --allow-unrelated-histories
+```
 
 **Misc Commands:**
 
@@ -116,7 +119,7 @@ git branch
 
 Checkout a branch
 ```sh
-git checkout master
+git checkout main
 ```
 
 
