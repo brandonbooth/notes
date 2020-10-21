@@ -126,7 +126,7 @@ git merge otherbranch
 ```
 
 
-Pull from GitHub merge
+Pull from GitHub
 ```sh
 git pull https://github.com/brandonbooth/notes.git
 ```
