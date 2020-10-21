@@ -1,4 +1,6 @@
 # notes
+by Brandon Booth
+
 ## Table of Contents
 - [git Command Line](#git-command-line)
 
@@ -75,8 +77,6 @@ After a change is made add the file and then commit the changes (note: Multiple 
 git add *.txt
 ```
 
-
-
 Add location of repository
 ```sh
 git remote add origin https://github.com/brandonbooth/projects.git
@@ -88,10 +88,6 @@ git remote add origin https://github.com/brandonbooth/python.git
 
 
 Push to repository
-```sh
-git push -u origin master
-```
-
 ```sh
 git push -u origin main
 ```
