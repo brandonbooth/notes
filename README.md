@@ -1,4 +1,4 @@
-# Notes
+# Coding Notes
 by [Brandon Booth](https://brandon-booth.com)
 
 ## Table of Contents
