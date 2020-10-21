@@ -69,7 +69,7 @@ git log
 ```
 
 
-After a change is made add the file and then commit the changes (note: Multiple files can be added at the same time - Use “*” to Add multiple files).
+After a change is made add the file and then commit the changes (note: multiple files can be added at the same time - Use “*” as a wildcard).
 ```sh
 git add *.txt
 ```
