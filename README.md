@@ -1,5 +1,5 @@
 # notes
-by Brandon Booth
+by [Brandon Booth](https://brandon-booth.com)
 
 ## Table of Contents
 - [git Command Line](#git-command-line)
@@ -8,6 +8,7 @@ by Brandon Booth
 ## git Notes ##
 
 **Helpful links:**
+- https://guides.github.com/features/mastering-markdown/#syntax
 - https://education.github.com/git-cheat-sheet-education.pdf
 - https://guides.github.com/introduction/flow/
 - https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
