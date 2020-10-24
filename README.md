@@ -15,6 +15,9 @@ by [Brandon Booth](https://brandon-booth.com) - Fall 2020
 
 > Note: TBD...
 
+## Misc. Commands
+Show hidden files on Mac: ```Command+Shift+.```
+
 ## Git Command Line
 
 Check version of Git installed on mac
