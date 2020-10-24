@@ -128,3 +128,13 @@ TBD...
 ```sh
 TBD
 ```
+
+
+## HTML and CSS
+3 types of CSS:
+1.	 Inline CSS.
+2.	 Internal CSS.
+3.	 External CSS
+> (https://www.c-sharpcorner.com/UploadFile/e6a884/types-of-css/)
+
+> Class and ID Selectors (https://www.htmldog.com/guides/css/intermediate/classid/)
