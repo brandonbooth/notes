@@ -5,6 +5,7 @@ by [Brandon Booth](https://brandon-booth.com) - Fall 2020
 ## Table of Contents
 - [Git Command Line](#git-command-line)
 - [Python](#Python)
+- [HTML and CSS](#HTML and CSS)
 
 **Helpful links:**
 - https://guides.github.com/features/mastering-markdown/#syntax
