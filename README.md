@@ -91,6 +91,10 @@ Pull from GitHub
 git pull https://github.com/brandonbooth/notes.git
 ```
 ```sh
+git pull https://github.com/brandonbooth/python.git
+```
+
+```sh
 git pull origin main --allow-unrelated-histories
 ```
 
