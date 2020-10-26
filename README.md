@@ -19,6 +19,21 @@ by [Brandon Booth](https://brandon-booth.com) - Fall 2020
 ## Misc. Commands
 Show hidden files on Mac: ```Command+Shift+.```
 
+## Add environment variables
+Enter the following into terminal 
+```sh
+nano .bash_profile
+```
+
+Enter envrionment variables
+```sh
+export DB_user="brandonb"
+```
+
+Save changes
+Enter ```Control+X```, then ```Y``` to save, then ```Enter``` to keep the same file name.
+
+
 ## Git Command Line
 
 Check version of Git installed on mac
