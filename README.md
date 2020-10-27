@@ -1,5 +1,5 @@
 # Coding Notes
-by [Brandon Booth](https://brandon-booth.com) - Fall 2020
+by [Brandon Booth](www.brandon-booth.com) - Fall 2020
 
 
 ## Table of Contents
