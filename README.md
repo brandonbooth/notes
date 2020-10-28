@@ -96,6 +96,9 @@ git remote add origin https://github.com/brandonbooth/projects.git
 ```sh
 git remote add origin https://github.com/brandonbooth/python.git
 ```
+```sh
+git remote add origin https://github.com/brandonbooth/brandon-booth_com.git
+```
 
 Push to repository
 ```sh
