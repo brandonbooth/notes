@@ -19,7 +19,21 @@ by [Brandon Booth](https://brandon-booth.com/index.php) - Fall 2020
 ## Misc. Commands
 Show hidden files on Mac: ```Command+Shift+.```
 
-## Add environment variables
+## How to set and get environment variables
+Use the os module
+```sh
+import os
+
+# Set environment variables
+os.environ['username'] = 'theusername'
+os.environ['password'] = 'thepassword'
+
+# Get environment variables
+USER = os.getenv('username')
+PASSWORD = os.environ.get('password')
+```
+
+## How to edit bash file
 Enter the following into terminal 
 ```sh
 nano .bash_profile
@@ -27,7 +41,7 @@ nano .bash_profile
 
 Enter envrionment variables
 ```sh
-export DB_user="brandonb"
+export db_user="username"
 ```
 
 Save changes
