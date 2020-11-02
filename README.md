@@ -20,6 +20,14 @@ by [Brandon Booth](https://brandon-booth.com/index.php) - Fall 2020
 Show hidden files on Mac: ```Command+Shift+.```
 
 ## How to set and get environment variables
+To see environment variable enter the following into terminal 
+```sh
+printenv
+```
+```sh
+printenv
+```
+
 Use the os module
 ```sh
 import os
@@ -160,10 +168,12 @@ git merge otherbranch
 
 ## Python
 
-TBD...
+How to create virtual environment:
 ```sh
-TBD
+Creation of virtual environments is done by executing the command venv:
+python3 -m venv /path/to/new/virtual/environment
 ```
+> https://docs.python.org/3/library/venv.html
 
 
 ## HTML and CSS
