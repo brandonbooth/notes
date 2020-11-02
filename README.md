@@ -168,8 +168,8 @@ git merge otherbranch
 
 ## Python
 
-How to create virtual environment
-### Creation of virtual environments is done by executing the command venv:
+# How to create virtual environment
+Creation of virtual environments is done by executing the command venv:
 ```sh
 python3 -m venv /path/to/new/virtual/environment
 ```
