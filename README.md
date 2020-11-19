@@ -175,6 +175,19 @@ python3 -m venv /path/to/new/virtual/environment
 ```
 > https://docs.python.org/3/library/venv.html
 
+## Django
+### Activate virtual environment
+The virtual environment is activated by executing the command:
+```sh
+source /Users/brandonbooth/projects/django_project/venv/bin/activate
+```
+
+### How to run server
+Navigate to mysite to start server:
+```sh
+python3 manage.py runserver
+```
+
 
 ## HTML and CSS
 3 types of CSS:
