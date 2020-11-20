@@ -166,7 +166,7 @@ Merge a branch
 git merge otherbranch
 ```
 
-## Python
+## Python / Django
 
 ### How to create virtual environment
 Creation of virtual environments is done by executing the command venv:
@@ -174,13 +174,19 @@ Creation of virtual environments is done by executing the command venv:
 python3 -m venv /path/to/new/virtual/environment
 ```
 > https://docs.python.org/3/library/venv.html
-
-## Django
+ 
 ### Activate virtual environment
 The virtual environment is activated by executing the command:
 ```sh
 source /Users/brandonbooth/projects/django_project/venv/bin/activate
 ```
+
+### alias for python to python3
+Add the following to .bash_profile (located in ~/)
+```sh
+alias python=python3
+```
+
 
 ### How to run server
 Navigate to mysite to start server:
