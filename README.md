@@ -187,11 +187,31 @@ Add the following to .bash_profile (located in ~/)
 alias python=python3
 ```
 
-
 ### How to run server
 Navigate to mysite to start server:
 ```sh
 python3 manage.py runserver
+```
+
+### How to update db
+Make changes to models.py, then makemigrations and migrate:
+```sh
+python3 manage.py makemigrations
+python3 manage.py migrate
+```
+
+### How to check db
+Navigate to folder location of db:
+```sh
+sqlite3 db.sqlite3
+```
+then
+```sh
+.schema
+```
+
+```sh
+.exit
 ```
 
 
