@@ -213,6 +213,29 @@ then
 ```sh
 .exit
 ```
+## Django
+### starting project
+
+
+Create and activate vitual environment by creating directory for project and then creating venv:
+```sh
+python -m venv my_venv_name
+```
+
+Install django
+```sh
+pip install django
+```
+
+Check version of django
+```sh
+python -m django --version
+```
+
+Navgate to directory where you would like to save the project and enter the following into command line:
+```sh
+django-admin startproject demo_project
+```
 
 
 ## HTML and CSS
