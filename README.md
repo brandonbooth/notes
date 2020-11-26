@@ -232,10 +232,25 @@ Check version of django
 python -m django --version
 ```
 
+list django commands
+```sh
+django-admin
+```
+
 Navgate to directory where you would like to save the project and enter the following into command line:
 ```sh
 django-admin startproject demo_project
 ```
+
+Navigate to mysite to start server:
+```sh
+python3 manage.py runserver
+```
+vist app by navigating to:
+http://127.0.0.1:8000
+or
+http://localhost:8000
+
 
 
 ## HTML and CSS
