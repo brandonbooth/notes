@@ -246,12 +246,19 @@ Navigate to mysite to start server:
 ```sh
 python3 manage.py runserver
 ```
-vist app by navigating to:
+To stop server: enter```control+c```
+```sh
+^C
+```
+
+
+To visit app homepage:
 http://127.0.0.1:8000
 or
 http://localhost:8000
 
-
+To visit admin page:
+http://localhost:8000
 
 ## HTML and CSS
 3 types of CSS:
