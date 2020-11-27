@@ -258,10 +258,56 @@ To make migrations:
 python manage.py makemigrations
 ```
 
-
 To view sql:
 ```sh
 python manage.py sqlmigrate blog 0001
+```
+
+To migrate:
+```sh
+python manage.py migrate
+```
+
+python shell:
+```sh
+python manage.py shell
+```
+example:
+```sh
+(demo_project_venv) brandonbooth@Brandons-MacBook-Pro demo_project % python manage.py shell
+Python 3.7.7 (default, Mar 10 2020, 15:43:33) 
+[Clang 11.0.0 (clang-1100.0.33.17)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> from blog.models import Post
+>>> from django.contrib.auth.models import User
+>>> User.objects.all()
+<QuerySet [<User: brandonbooth>, <User: testuser>]>
+>>> User.objects.first()
+<User: brandonbooth>
+>>> User.objects.filter(username='brandonbooth')
+<QuerySet [<User: brandonbooth>]>
+>>> user.objects.filterUser.objects.filter(username='brandonbooth').first()
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+NameError: name 'user' is not defined
+>>> User.objects.filter(username='brandonbooth').first()
+<User: brandonbooth>
+>>> user = User.objects.filter(username='brandonbooth').first()
+>>> user
+<User: brandonbooth>
+>>> user.id
+1
+>>> user.pk
+1
+>>> user = User.objects.get(id=1)
+>>> user
+<User: brandonbooth>
+>>> 
+```
+ 
+To :
+```sh
 
 ```
 
@@ -270,6 +316,10 @@ To :
 
 ```
 
+To :
+```sh
+
+```
 
 
 ###Create app
