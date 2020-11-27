@@ -4,7 +4,8 @@ by [Brandon Booth](https://brandon-booth.com/index.php) - Fall 2020
 
 ## Table of Contents
 - [Git Command Line](#git-command-line)
-- [Python](#Python)
+- [Python / Django](#Python-/-Django)
+- [Django](#Django)
 - [HTML and CSS](#HTML-and-CSS)
 
 **Helpful links:**
