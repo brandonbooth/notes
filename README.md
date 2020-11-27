@@ -244,12 +244,40 @@ django-admin startproject demo_project
 
 Navigate to mysite to start server:
 ```sh
-python3 manage.py runserver
+python manage.py runserver
 ```
 To stop server: enter```control+c```
 ```sh
 ^C
 ```
+
+
+To make migrations:
+```sh
+python manage.py makemigrations
+```
+
+
+To view sql:
+```sh
+python manage.py sqlmigrate blog 0001
+
+```
+
+To :
+```sh
+
+```
+
+
+
+###Create app
+start app in project directory with name blog:
+```sh
+python manage.py startapp blog
+```
+
+
 
 
 To visit app homepage:
