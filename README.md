@@ -6,6 +6,7 @@ by [Brandon Booth](https://brandon-booth.com/index.php) - Fall 2020
 - [Git Command Line](#git-command-line)
 - [Python / Django](#Python-/-Django)
 - [Django](#Django)
+- [Heroku](#Heroku)
 - [HTML and CSS](#HTML-and-CSS)
 
 **Helpful links:**
