@@ -238,10 +238,12 @@ list django commands
 django-admin
 ```
 
-Navgate to directory where you would like to save the project and enter the following into command line:
+create app:
 ```sh
-django-admin startproject demo_project
+python manage.py startapp users
 ```
+
+
 
 Navigate to mysite to start server:
 ```sh
@@ -287,10 +289,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 <User: brandonbooth>
 >>> User.objects.filter(username='brandonbooth')
 <QuerySet [<User: brandonbooth>]>
->>> user.objects.filterUser.objects.filter(username='brandonbooth').first()
-Traceback (most recent call last):
-  File "<console>", line 1, in <module>
-NameError: name 'user' is not defined
 >>> User.objects.filter(username='brandonbooth').first()
 <User: brandonbooth>
 >>> user = User.objects.filter(username='brandonbooth').first()
@@ -303,7 +301,21 @@ NameError: name 'user' is not defined
 >>> user = User.objects.get(id=1)
 >>> user
 <User: brandonbooth>
+>>> Post.objects.all()
+<QuerySet []>
+>>> post_1 = Post(title='Blog 1', content='First Post content!', author=user)
+>>> Post.objects.all()
+<QuerySet []>
+>>> post_1.save()
+>>> Post.objects.all()
+<QuerySet [<Post: Post object (1)>]>
 >>> 
+
+post.content
+post.author
+post.date_posted
+user.post_set.all()
+
 ```
  
 To :
@@ -329,6 +341,14 @@ python manage.py startapp blog
 ```
 
 
+## Heroku
+### Setting up Heroku for mac
+1) Create Heroku account
+2) Install Heroku CLI
+```sh 
+brew tap heroku/brew && brew install heroku"
+```
+3) 
 
 
 To visit app homepage:
