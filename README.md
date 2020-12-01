@@ -345,11 +345,46 @@ python manage.py startapp blog
 ## Heroku
 ### Setting up Heroku for mac
 1) Create Heroku account
-2) Install Heroku CLI
+2) Install Heroku CLI  (will need to ensure xcode is installed).
 ```sh 
-brew tap heroku/brew && brew install heroku"
+brew tap heroku/brew && brew install heroku
 ```
-3) 
+3) Check that Heroku installed correctly (this will also list all Heroku commands)
+```sh 
+Heroku
+```
+
+4) Login to heroku
+```sh 
+heroku login
+```
+
+5) Install gunicorn (The Gunicorn "Green Unicorn" is a Python Web Server Gateway Interface HTTP server).
+```sh 
+pip install gunicorn
+```
+
+6) List all packages in env
+```sh
+pip freeze
+''
+
+7) Write contents of pip freeze to requirements.txt
+```sh
+pip freeze > requirements.txt
+''
+
+8) 
+```sh
+
+''
+
+
+) 
+```sh
+
+''
+
 
 
 To visit app homepage:
