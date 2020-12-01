@@ -374,16 +374,69 @@ pip freeze
 pip freeze > requirements.txt
 ''
 
-8) 
+8) Initialize git project folder
 ```sh
+git init
+''
 
+9) Copy recomended gitignore files and save to .gitignore
+
+10) Add files
+```sh
+git add -A
+''
+
+11) Commit files
+```sh
+git commit -m "initial commit"
+''
+
+12)Create Heroku app
+```sh
+heroku create demoprojectdjango
 ''
 
 
-) 
+13) Visit Heroku domain (from project folder)
 ```sh
-
+Heroku open
 ''
+
+
+14) Push git to Heroku to deploy app
+```sh
+git push heroku master
+''
+
+
+
+
+Create new django key using python
+```sh
+python
+import secrets
+secrets.token_hex(24)
+```
+
+add key to  .zshrc
+set key heroku:
+```sh
+heroku config:set HERO_SECRET_KEY="secret_key"
+heroku config:set HERO_DEBUG_VALUE="TRUE"
+heroku config:set AWS
+heroku config:set AWS
+heroku config:set AWS
+heroku config:set EMAIL_USER="email@gmail.com"
+heroku config:set EMAIL_PASS='password'
+heroku config:set 
+```
+
+
+
+
+
+
+
 
 
 
