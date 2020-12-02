@@ -57,12 +57,12 @@ PASSWORD = os.environ.get('password')
 ```
 
 ## Git Command Line
-Check version of Git installed on mac
+Check version of git installed on mac:
 ```sh
 git -–version
 ```
 
-Add GitHub username and email to git on mac
+Add GitHub username and email to git on Mac:
 ```sh
 git config --global user.email "brandon.booth@yahoo.com"
 ```
@@ -70,47 +70,47 @@ git config --global user.email "brandon.booth@yahoo.com"
 git config --global user.name "brandonbooth"
 ```
 
-Navigate to location of folder or project
+Navigate to location of folder or project:
 ```sh
 cd projects
 ```
 
-Initialize the git repository within the chosen folder location
+Initialize the git repository within the project folder:
 ```sh
 git init
 ```
 
-Use terminal to view the hidden git repository that was created (this will make files visible in finder)
+Use terminal to view the hidden git repository that was created (this will make files visible in finder):
 ```sh
 defaults write com.apple.find AppleShowAllFiles YES
 ```
 
-Check status of git folder
+Check status of git folder:
 ```sh
 git status
 ```
 
-Add a file to git (after adding file it is a good practice to check the status to validate)
+Add a file to git (after adding file it is a good practice to check the status to validate):
 ```sh
 git add test1.txt
 ```
 
-Commit file to git repository with message
+Commit file to git repository with message:
 ```sh
 git commit -m "Initial Commit - add test file"
 ```
 
-Check git log
+Check git log:
 ```sh
 git log
 ```
 
-After a change is made add the file and then commit the changes (note: multiple files can be added at the same time - Use “*” as a wildcard).
+After a change is made add the file and then commit the changes (note: multiple files can be added at the same time - Use “*” as a wildcard):
 ```sh
 git add *.txt
 ```
 
-Add location of repository
+Add location of repository:
 ```sh
 git remote add origin https://github.com/brandonbooth/projects.git
 ```
@@ -121,12 +121,12 @@ git remote add origin https://github.com/brandonbooth/python.git
 git remote add origin https://github.com/brandonbooth/brandon-booth_com.git
 ```
 
-Push to repository
+Push to repository:
 ```sh
 git push -u origin main
 ```
 
-Pull from GitHub
+Pull from GitHub:
 ```sh
 git pull https://github.com/brandonbooth/notes.git
 ```
@@ -142,7 +142,7 @@ git pull origin main --allow-unrelated-histories
 ```
 
 **Misc Commands:**
-List git commands
+List git commands:
 ```sh
 git --help
 ```
@@ -150,23 +150,22 @@ git --help
 git status --help
 ```
 
-List branch
+List branch:
 ```sh
 git branch
 ```
 
-Checkout a branch
+Checkout a branch:
 ```sh
 git checkout main
 ```
 
-Merge a branch
+Merge a branch:
 ```sh
 git merge otherbranch
 ```
 
 ## Python / Django
-
 ### How to create virtual environment
 Creation of virtual environments is done by executing the command venv:
 ```sh
@@ -181,21 +180,24 @@ source /Users/brandonbooth/projects/django_project/venv/bin/activate
 ```
 
 ### alias for python to python3
-Add the following to .bash_profile (located in ~/)
+Add the following to environment variables (located in ~/):
 ```sh
 alias python=python3
 ```
 
 ### How to run server
-Navigate to mysite to start server:
+Navigate to project folder and start server:
 ```sh
 python3 manage.py runserver
 ```
 
 ### How to update db
-Make changes to models.py, then makemigrations and migrate:
+Make changes to models.py, then make migrations:
 ```sh
 python3 manage.py makemigrations
+```
+Migrate migrations:
+```sh
 python3 manage.py migrate
 ```
 
@@ -204,54 +206,51 @@ Navigate to folder location of db:
 ```sh
 sqlite3 db.sqlite3
 ```
-then
+Schema:
 ```sh
 .schema
 ```
-
+Exit:
 ```sh
 .exit
 ```
+
 ## Django
-### starting project
-
-
+### Createing a project
 Create and activate vitual environment by creating directory for project and then creating venv:
 ```sh
 python -m venv my_venv_name
 ```
 
-Install django
+Install Django:
 ```sh
 pip install django
 ```
 
-Check version of django
+Check version of Django:
 ```sh
 python -m django --version
 ```
 
-list django commands
+List Django commands:
 ```sh
 django-admin
 ```
 
-create app:
+Create app:
 ```sh
 python manage.py startapp users
 ```
 
-
-
-Navigate to mysite to start server:
+Navigate to project folder to start server:
 ```sh
 python manage.py runserver
 ```
+
 To stop server: enter```control+c```
 ```sh
 ^C
 ```
-
 
 To make migrations:
 ```sh
@@ -333,7 +332,7 @@ To :
 
 
 ###Create app
-start app in project directory with name blog:
+Start app in project directory with name blog:
 ```sh
 python manage.py startapp blog
 ```
@@ -341,97 +340,90 @@ python manage.py startapp blog
 
 ## Heroku
 ### Setting up Heroku for mac
-1) Create Heroku account
-2) Install Heroku CLI  (will need to ensure xcode is installed).
+1) Create Heroku account.
+
+2) Install Heroku CLI  (will need to ensure xcode is installed):
 ```sh 
 brew tap heroku/brew && brew install heroku
 ```
-3) Check that Heroku installed correctly (this will also list all Heroku commands)
+
+3) Check that Heroku installed correctly (this will also list all Heroku commands):
 ```sh 
 Heroku
 ```
 
-4) Login to heroku
+4) Login to heroku:
 ```sh 
 heroku login
 ```
 
-5) Install gunicorn (The Gunicorn "Green Unicorn" is a Python Web Server Gateway Interface HTTP server).
+5) Install gunicorn (The Gunicorn "Green Unicorn" is a Python Web Server Gateway Interface HTTP server):
 ```sh 
 pip install gunicorn
 ```
 
-6) List all packages in env
+6) List all packages in env:
 ```sh
 pip freeze
-''
+```
 
-7) Write contents of pip freeze to requirements.txt
+7) Write contents of pip freeze to requirements.txt:
 ```sh
 pip freeze > requirements.txt
-''
+```
 
-8) Initialize git project folder
+8) Initialize git project folder:
 ```sh
 git init
-''
+```
 
-9) Copy recomended gitignore files and save to .gitignore
+9) Copy recomended gitignore files and save to .gitignore.
 
-10) Add files
+10) Add files:
 ```sh
 git add -A
-''
+```
 
-11) Commit files
+11) Commit files:
 ```sh
 git commit -m "initial commit"
-''
+```
 
-12)Create Heroku app
+12)Create Heroku app:
 ```sh
 heroku create demoprojectdjango
-''
+```
 
-
-13) Visit Heroku domain (from project folder)
+13) Visit Heroku domain (from project folder):
 ```sh
 Heroku open
-''
+```
 
-
-14) Push git to Heroku to deploy app
+14) Push git to Heroku to deploy app:
 ```sh
 git push heroku master
-''
+```
 
-
-
-
-Create new django key using python
+15) Create new django key using python:
 ```sh
 python
 import secrets
 secrets.token_hex(24)
 ```
 
-add key to  .zshrc
-set key heroku:
+16) Add secret key to  .zshrc:
+
+17) Add secret key and other environment variables to heroku:
 ```sh
 heroku config:set HERO_SECRET_KEY="secret_key"
 heroku config:set HERO_DEBUG_VALUE="TRUE"
-heroku config:set AWS
-heroku config:set AWS
-heroku config:set AWS
+heroku config:set AWS_ACCESS_KEY_ID="secret"
+heroku config:set AWS_SECRET_ACCESS_KEY="secret"
+heroku config:set AWS_STORAGE_BUCKET_NAME="django-demo-project-blog-files"
 heroku config:set EMAIL_USER="email@gmail.com"
 heroku config:set EMAIL_PASS='password'
 heroku config:set 
 ```
-
-
-
-
-
 
 
 
