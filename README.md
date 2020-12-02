@@ -3,6 +3,7 @@ by [Brandon Booth](https://brandon-booth.com/index.php) - Fall 2020
 
 
 ## Table of Contents
+- [Misc. Commad Line](#Misc.-Commad-Line)
 - [Git Command Line](#git-command-line)
 - [Python / Django](#Python-/-Django)
 - [Django](#Django)
@@ -18,19 +19,31 @@ by [Brandon Booth](https://brandon-booth.com/index.php) - Fall 2020
 
 > Note: TBD...
 
-## Misc. Commands
+## Misc. Commad Line
 Show hidden files on Mac: ```Command+Shift+.```
 
-## How to set and get environment variables
-To see environment variable enter the following into terminal 
-```sh
-printenv
-```
+## Environment Variables
+To see environment variable enter the following into terminal:
 ```sh
 printenv
 ```
 
-Use the os module
+### Add .zshrc (or .bash) files using nano:
+Enter the following into terminal:
+```sh
+nano .zshrc
+```
+
+Add envrionment variable:
+```sh
+export db_user="username"
+```
+
+Save changes:
+Enter ```Control+X```, then ```Y``` to save, then ```Enter``` to keep the same file name.
+
+### Environment variables in Python
+Use the os module to set and get in Python:
 ```sh
 import os
 
@@ -43,23 +56,7 @@ USER = os.getenv('username')
 PASSWORD = os.environ.get('password')
 ```
 
-## How to edit bash file
-Enter the following into terminal 
-```sh
-nano .bash_profile
-```
-
-Enter envrionment variables
-```sh
-export db_user="username"
-```
-
-Save changes
-Enter ```Control+X```, then ```Y``` to save, then ```Enter``` to keep the same file name.
-
-
 ## Git Command Line
-
 Check version of Git installed on mac
 ```sh
 git -–version
