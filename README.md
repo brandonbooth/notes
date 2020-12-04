@@ -166,8 +166,13 @@ git merge otherbranch
 ```
 
 ## Python / Django
+
 ### How to create virtual environment
-Creation of virtual environments is done by executing the command venv:
+Creation of virtual environments is done by executing the following command in the porject folder:
+```sh
+virtualenv env
+```
+or:
 ```sh
 python3 -m venv /path/to/new/virtual/environment
 ```
