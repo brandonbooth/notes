@@ -181,7 +181,7 @@ python3 -m venv /path/to/new/virtual/environment
 ### Activate virtual environment
 The virtual environment is activated by executing the command:
 ```sh
-source /Users/brandonbooth/projects/django_project/venv/bin/activate
+source venv/bin/activate
 ```
 
 ### alias for python to python3
