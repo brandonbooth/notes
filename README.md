@@ -242,6 +242,12 @@ List Django commands:
 django-admin
 ```
 
+Create project in project folder:
+```sh
+django-admin startproject eatdrink_project
+```
+
+
 Create app:
 ```sh
 python manage.py startapp users
