@@ -5,7 +5,7 @@ by [Brandon Booth](https://brandon-booth.com/index.php) - Fall 2020
 ## Table of Contents
 - [Misc. Commad Line](#Misc.-Commad-Line)
 - [Git Command Line](#git-command-line)
-- [Python / Django](#Python-/-Django)
+- [Python](#Python)
 - [Django](#Django)
 - [Heroku](#Heroku)
 - [HTML and CSS](#HTML-and-CSS)
@@ -165,7 +165,7 @@ Merge a branch:
 git merge otherbranch
 ```
 
-## Python / Django
+## Python
 
 ### How to create virtual environment
 Creation of virtual environments is done by executing the following command in the porject folder:
@@ -190,35 +190,6 @@ Add the following to environment variables (located in ~/):
 alias python=python3
 ```
 
-### How to run server
-Navigate to project folder and start server:
-```sh
-python3 manage.py runserver
-```
-
-### How to update db
-Make changes to models.py, then make migrations:
-```sh
-python3 manage.py makemigrations
-```
-Migrate migrations:
-```sh
-python3 manage.py migrate
-```
-
-### How to check db
-Navigate to folder location of db:
-```sh
-sqlite3 db.sqlite3
-```
-Schema:
-```sh
-.schema
-```
-Exit:
-```sh
-.exit
-```
 
 ## Django
 ### Createing a project
@@ -251,6 +222,36 @@ django-admin startproject eatdrink_project
 Create app:
 ```sh
 python manage.py startapp users
+```
+
+### How to run server
+Navigate to project folder and start server:
+```sh
+python3 manage.py runserver
+```
+
+### How to update db
+Make changes to models.py, then make migrations:
+```sh
+python3 manage.py makemigrations
+```
+Migrate migrations:
+```sh
+python3 manage.py migrate
+```
+
+### How to check db
+Navigate to folder location of db:
+```sh
+sqlite3 db.sqlite3
+```
+Schema:
+```sh
+.schema
+```
+Exit:
+```sh
+.exit
 ```
 
 Navigate to project folder to start server:
