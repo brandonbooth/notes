@@ -170,7 +170,7 @@ git merge otherbranch
 ### How to create virtual environment
 Creation of virtual environments is done by executing the following command in the porject folder:
 ```sh
-virtualenv env
+virtualenv venv
 ```
 or:
 ```sh
