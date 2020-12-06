@@ -184,10 +184,11 @@ The virtual environment is activated by executing the command:
 source venv/bin/activate
 ```
 
-### alias for python to python3
+### Adding alias for python to python3 and pip to pip3
 Add the following to environment variables (located in ~/):
 ```sh
 alias python=python3
+alias pip=pip3
 ```
 
 
