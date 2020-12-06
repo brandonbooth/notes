@@ -3,7 +3,7 @@ by [Brandon Booth](https://brandon-booth.com/index.php) - Fall 2020
 
 
 ## Table of Contents
-- [Misc. Commad Line](#Misc.-Commad-Line)
+- [Terminal](#Terminal)
 - [Git Command Line](#git-command-line)
 - [Python](#Python)
 - [Django](#Django)
@@ -19,42 +19,25 @@ by [Brandon Booth](https://brandon-booth.com/index.php) - Fall 2020
 
 > Note: TBD...
 
-## Misc. Commad Line
+## Terminal
 Show hidden files on Mac: ```Command+Shift+.```
 
-## Environment Variables
+### Environment Variables
 To see environment variable enter the following into terminal:
 ```sh
 printenv
 ```
 
-### Add .zshrc (or .bash) files using nano:
-Enter the following into terminal:
+Add .zshrc (or .bash) files using nano by entering the following into terminal:
 ```sh
 nano .zshrc
 ```
-
 Add envrionment variable:
 ```sh
 export db_user="username"
 ```
-
 Save changes:
 Enter ```Control+X```, then ```Y``` to save, then ```Enter``` to keep the same file name.
-
-### Environment variables in Python
-Use the os module to set and get in Python:
-```sh
-import os
-
-# Set environment variables
-os.environ['username'] = 'theusername'
-os.environ['password'] = 'thepassword'
-
-# Get environment variables
-USER = os.getenv('username')
-PASSWORD = os.environ.get('password')
-```
 
 ## Git Command Line
 Check version of git installed on mac:
@@ -191,6 +174,19 @@ alias python=python3
 alias pip=pip3
 ```
 
+### Environment variables in Python
+Use the os module to set and get in Python:
+```sh
+import os
+
+# Set environment variables
+os.environ['username'] = 'theusername'
+os.environ['password'] = 'thepassword'
+
+# Get environment variables
+USER = os.getenv('username')
+PASSWORD = os.environ.get('password')
+```
 
 ## Django
 ### Createing a project
