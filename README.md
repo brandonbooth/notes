@@ -221,6 +221,12 @@ Create app:
 python manage.py startapp users
 ```
 
+
+Create superuser (admin):
+```sh
+python manage.py createsuperuser
+```
+
 ### How to run server
 Navigate to project folder and start server:
 ```sh
