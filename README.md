@@ -189,6 +189,10 @@ PASSWORD = os.environ.get('password')
 ```
 
 ## Django
+
+### Django render path
+.urls --> 
+
 ### Createing a project
 Create and activate vitual environment by creating directory for project and then creating venv:
 ```sh
