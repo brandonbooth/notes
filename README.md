@@ -5,6 +5,7 @@ by [Brandon Booth](https://brandon-booth.com/index.php) - Fall 2020
 ## Table of Contents
 - [Terminal](#Terminal)
 - [Git Command Line](#git-command-line)
+- [Python Resources](#python-resources)
 - [Python](#Python)
 - [Django](#Django)
 - [Heroku](#Heroku)
@@ -147,6 +148,16 @@ Merge a branch:
 ```sh
 git merge otherbranch
 ```
+
+## python-resources
+Additional Resources covered in CS511
+- RegexOne (https://regexone.com/problem): Learn Regular Expressions with simple, interactive exercises.
+- Jsonviewer (https://codebeautify.org/jsonviewer): Visualize JSON code.
+- NumPy's main site (https://numpy.org/): Contains tutorials, documentation and instructions for installing it.
+- matplotlib's main site (https://matplotlib.org/#): Contains a ton of documentation on this plotting library. The most important is the stuff in the pyplot module.
+- Amazon AWS Free Tier (https://aws.amazon.com/free/): this has information on Amazon's AWS free tier of service. You can use limited services for free, but be careful, if you use more than the free limit you can get charged.
+- Google App Engine  (https://cloud.google.com/appengine): this is a good place to start on making a web service or working with a cloud platform. It also has a free tier and unlike AWS if you go over the limit, it simply gets turned off until the quota resets.
+- Arduino  (https://www.arduino.cc/): This may seem like an outlier but stay with me a second. Learning C/C++ can be helpful for optimizing things that Python does inefficiently. The main benefit is that you get 'closer' to the hardware and and do things like work with memory in a more efficient way. Arduino has a bunch of tutorials for beginners to teach them how to program it and how to learn C/C++. So that is a plus. You are literally working with I/O pins and limited memory, sot that will teach you some stuff. And it is really great for collecting environmental data over time. So you can hook it up to things like moisture sensors in the soil, temperature sensors, a switch in your door. Whatever it is, you can log data over time then do cool stuff with that data. And its fun.
 
 ## Python
 
