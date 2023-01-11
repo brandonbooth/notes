@@ -7,6 +7,7 @@ by [Brandon Booth](https://brandon-booth.com/index.php) - Fall 2020
 - [Git Command Line](#git-command-line)
 - [Python Resources](#python-resources)
 - [Python](#Python)
+- [Anaconda](#Anaconda)
 - [Django](#Django)
 - [Heroku](#Heroku)
 - [HTML and CSS](#HTML-and-CSS)
@@ -198,6 +199,26 @@ os.environ['password'] = 'thepassword'
 USER = os.getenv('username')
 PASSWORD = os.environ.get('password')
 ```
+
+
+## Anaconda
+
+### Creating conda environment
+```sh
+conda create -n py2demo python=2.7
+```
+
+### To activate this environment, use
+```sh
+conda activate py2demo
+```
+
+### To deactivate an active environment, use
+```sh
+conda deactivate
+```
+
+
 
 ## Django
 
