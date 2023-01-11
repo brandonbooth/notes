@@ -34,6 +34,11 @@ Add .zshrc (or .bash) files using nano by entering the following into terminal:
 ```sh
 nano .zshrc
 ```
+or
+```sh
+nano ~/.zshrc
+```
+
 Add envrionment variable:
 ```sh
 export db_user="username"
