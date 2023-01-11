@@ -218,6 +218,15 @@ conda activate py2demo
 conda deactivate
 ```
 
+### Change python version
+```sh
+conda install python=2.7.16
+```
+
+### Search python versions
+```sh
+conda search python
+```
 
 
 ## Django
