@@ -8,6 +8,7 @@ by [Brandon Booth](https://brandon-booth.com/index.php) - Fall 2020
 - [Python Resources](#python-resources)
 - [Python](#Python)
 - [Anaconda](#Anaconda)
+- [Gcloud](#Gcloud)
 - [Django](#Django)
 - [Heroku](#Heroku)
 - [HTML and CSS](#HTML-and-CSS)
@@ -236,6 +237,19 @@ conda install python=2.7.16
 ### Search python versions
 ```sh
 conda search python
+```
+
+
+## Gcloud
+
+Initialize:
+```sh
+gcloud init
+```
+
+Login:
+```sh
+gcloud auth application-default login
 ```
 
 
