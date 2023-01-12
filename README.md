@@ -176,6 +176,11 @@ or:
 ```sh
 python3 -m venv /path/to/new/virtual/environment
 ```
+or with a specific version of python:
+```sh
+virtualenv -p /usr/bin/python2.7 my_project
+```
+
 > https://docs.python.org/3/library/venv.html
  
 ### Activate virtual environment
