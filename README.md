@@ -239,6 +239,10 @@ conda install python=2.7.16
 conda search python
 ```
 
+### List all anaconda environments
+```sh
+conda env list
+```
 
 ## Gcloud
 
