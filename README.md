@@ -221,7 +221,7 @@ conda create -n py2demo python=2.7
 
 ### To activate this environment, use
 ```sh
-conda activate py2demo
+conda activate envpy37
 ```
 
 ### To deactivate an active environment, use
