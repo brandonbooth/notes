@@ -215,38 +215,39 @@ PASSWORD = os.environ.get('password')
 
 ## Anaconda
 
-### Creating conda environment
+Creating conda environment:
 ```sh
 conda create -n py2demo python=2.7
 ```
 
-### To activate this environment, use
+To activate this environment, use:
 ```sh
 conda activate envpy37
 ```
 
-### To deactivate an active environment, use
+To deactivate an active environment, use:
 ```sh
 conda deactivate
 ```
 
-### Change python version
+Change python version:
 ```sh
 conda install python=2.7.16
 ```
 
-### Search python versions
+Search python versions:
 ```sh
 conda search python
 ```
 
-### List all anaconda environments
+List all anaconda environments:
 ```sh
 conda env list
 ```
 
 ## Jupyter
-###JupyterLab
+
+### JupyterLab
 Install JupyterLab with pip:
 ```sh
 pip install jupyterlab
@@ -267,7 +268,7 @@ To run the notebook:
 jupyter notebook
 ```
 
-###Voilà
+### Voilà
 Install Voilà with:
 ```sh
 pip install voila
