@@ -21,6 +21,7 @@ by [Brandon Booth](https://brandon-booth.com/index.php) - Fall 2020
 - https://education.github.com/git-cheat-sheet-education.pdf
 - https://guides.github.com/introduction/flow/
 - https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+- https://www.reddit.com/r/dataisbeautiful/
 
 > Note: TBD...
 
