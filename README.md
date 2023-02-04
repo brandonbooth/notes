@@ -9,6 +9,7 @@ by [Brandon Booth](https://brandon-booth.com/index.php) - Fall 2020
 - [Python](#Python)
 - [Anaconda](#Anaconda)
 - [Jupyter](#Jupyter)
+- [matplotlib](#matplotlib)
 - [Gcloud](#Gcloud)
 - [Django](#Django)
 - [Heroku](#Heroku)
@@ -276,6 +277,35 @@ pip install voila
 Once installed, launch Voilà with:
 ```sh
 voila
+```
+
+## matplotlib
+
+### Installation quick-start:
+Install using pip:
+```sh
+pip install matplotlib
+```
+
+Install using conda:
+```sh
+conda install matplotlib
+```
+
+Further details are available in the Installation Guide.
+
+### Draw a first plot
+Here is a minimal example plot:
+```sh
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0, 2 * np.pi, 200)
+y = np.sin(x)
+
+fig, ax = plt.subplots()
+ax.plot(x, y)
+plt.show()
 ```
 
 ## Gcloud
