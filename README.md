@@ -8,6 +8,7 @@ by [Brandon Booth](https://brandon-booth.com/index.php) - Fall 2020
 - [Python Resources](#python-resources)
 - [Python](#Python)
 - [Anaconda](#Anaconda)
+- [Jupyter](#Jupyter)
 - [Gcloud](#Gcloud)
 - [Django](#Django)
 - [Heroku](#Heroku)
@@ -242,6 +243,38 @@ conda search python
 ### List all anaconda environments
 ```sh
 conda env list
+```
+
+## Jupyter
+###JupyterLab
+Install JupyterLab with pip:
+```sh
+pip install jupyterlab
+Note: If you install JupyterLab with conda or mamba, we recommend using the conda-forge channel.
+```
+Once installed, launch JupyterLab with:
+```sh
+jupyter-lab
+```
+
+### Jupyter Notebook
+Install the classic Jupyter Notebook with:
+```sh
+pip install notebook
+```
+To run the notebook:
+```sh
+jupyter notebook
+```
+
+###Voilà
+Install Voilà with:
+```sh
+pip install voila
+```
+Once installed, launch Voilà with:
+```sh
+voila
 ```
 
 ## Gcloud
